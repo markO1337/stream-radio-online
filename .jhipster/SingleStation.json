@@ -1,0 +1,41 @@
+{
+  "fluentMethods": true,
+  "clientRootFolder": "",
+  "relationships": [
+    {
+      "relationshipName": "user",
+      "otherEntityName": "user",
+      "relationshipType": "many-to-one",
+      "relationshipValidateRules": ["required"],
+      "otherEntityField": "login",
+      "ownerSide": true,
+      "otherEntityRelationshipName": "singleStation"
+    }
+  ],
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "url",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "license",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "unique"]
+    }
+  ],
+  "changelogDate": "20200608223937",
+  "dto": "mapstruct",
+  "searchEngine": false,
+  "service": "serviceImpl",
+  "entityTableName": "single_station",
+  "databaseType": "sql",
+  "readOnly": false,
+  "jpaMetamodelFiltering": false,
+  "pagination": "no"
+}

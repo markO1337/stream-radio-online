@@ -1,0 +1,25 @@
+{
+  "streamRadioOnlineApp": {
+    "singleStation": {
+      "home": {
+        "title": "Single Stations",
+        "createLabel": "Create a new Single Station",
+        "createOrEditLabel": "Create or edit a Single Station",
+        "notFound": "No Single Stations found"
+      },
+      "created": "A new Single Station is created with identifier {{ param }}",
+      "updated": "A Single Station is updated with identifier {{ param }}",
+      "deleted": "A Single Station is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Single Station {{ id }}?"
+      },
+      "detail": {
+        "title": "Single Station"
+      },
+      "name": "Name",
+      "url": "Url",
+      "license": "License",
+      "user": "User"
+    }
+  }
+}

@@ -47,6 +47,7 @@ public class CacheConfiguration {
             createCache(cm, com.appero.streamradio.domain.User.class.getName());
             createCache(cm, com.appero.streamradio.domain.Authority.class.getName());
             createCache(cm, com.appero.streamradio.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.appero.streamradio.domain.SingleStation.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

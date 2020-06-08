@@ -36,7 +36,8 @@
     "dtoSuffix": "DTO",
     "otherModules": [],
     "blueprints": [],
-    "prettierJava": true
+    "prettierJava": true,
+    "lastLiquibaseTimestamp": 1591655977000
   },
   "git-provider": "GitHub",
   "git-company": "markO1337",

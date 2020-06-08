@@ -1,0 +1,25 @@
+{
+  "streamRadioOnlineApp": {
+    "singleStation": {
+      "home": {
+        "title": "SingleStations",
+        "createLabel": "Egy új Single Station létrehozása",
+        "createOrEditLabel": "Hozzon létre, vagy módosítson Single Stationt",
+        "notFound": "No Single Stations found"
+      },
+      "created": "Egy új Single Station lett létrehozva {{ param }} azonosítóval",
+      "updated": "A Single Station módosítva lett {{ param }} azonosítóval",
+      "deleted": "A Single Station törölve lett {{ param }} azonosítóval",
+      "delete": {
+        "question": "Biztos benne, hogy törölni szeretné az Single Stationt {{ id }} azonosítóval?"
+      },
+      "detail": {
+        "title": "Single Station"
+      },
+      "name": "Name",
+      "url": "Url",
+      "license": "License",
+      "user": "User"
+    }
+  }
+}
